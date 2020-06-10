@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS CUSTOMS bOOTSTRAP4 -->
+    <title><%=title %></title>
+    <%- include('partials/head.html') %>
+    <style>
+      body{
+        font-family: 'Spicy Rice', cursive;
+      }
+    </style>
+</head>
+
+<body>
+<%- include('partials/navigation.html') %>
+
+<div class="container">
+  <header class="row">
+    <div class="col-lg-12 text-center">
+      <img src="/img/pews-logo.png" class="animate__bounceIn" alt="pews logo">
+    </div>
+  </header>
+</div>
+
+<!--Saction One-->
+<div class="container-fluid" id="about">
+  <div class="row bg-dark text-white p-5 text-center">
+    <div class="col-sm-6">
+        <i class="fab fa-youtube fa-10x"> </i>
+    </div>
+
+    <div class="col-sm-6">
+      <h3>
+        the most suscribed  youtuber
+      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nesciunt tempora? Quibusdam quia ratione aut, eos enim inventore ea doloremque eum temporibus voluptatibus omnis earum magni soluta ex ad? Ducimus?</p>
+    </div>
+  </div>
+</div>
+
+</body>
+<%- include('partials/footer.html') %>
+</html>
